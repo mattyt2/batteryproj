@@ -32,7 +32,7 @@ def add_date_columns_to_file(input_file, output_file):
 Line to convert an input file with columns ['date string', power] to ['date string', power, day, month, year]
 Only really need to use the above function once, can comment it out afterwards...
 '''
-#add_date_columns_to_file("irr.csv", "irr_dates.csv")
+add_date_columns_to_file("irr.csv", "irr_dates.csv")
 ##################################################################################################################################
 
 #import irradiation data from file called irr.csv
